@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "AppPrueba.Aplicaciones/1.0.0": {
+        "dependencies": {
+          "AppPrueba.Dominio": "1.0.0"
+        },
+        "runtime": {
+          "AppPrueba.Aplicaciones.dll": {}
+        }
+      },
+      "AppPrueba.Dominio/1.0.0": {
+        "runtime": {
+          "AppPrueba.Dominio.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AppPrueba.Aplicaciones/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AppPrueba.Dominio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
